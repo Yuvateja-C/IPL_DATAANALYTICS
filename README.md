@@ -38,3 +38,6 @@ python IPL DATA ANALYTICS.py
 ```bash
 python -m streamlit run app.py
 ```
+# Live Demo
+
+https://ipl-dataanalytics.onrender.com
