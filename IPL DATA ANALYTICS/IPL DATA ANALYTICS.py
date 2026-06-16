@@ -37,7 +37,7 @@ sns.set_style("whitegrid")
 # deliveries.csv
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 matches = pd.read_csv(os.path.join(BASE_DIR, "data", "matches.csv"))
-deliveries = pd.read_csv(os.path.join(BASE_DIR, "data", "deliveries.zip"))
+deliveries = pd.read_csv(os.path.join(BASE_DIR, "data", "deliveries.zip", "deliveries.csv"))
 
 print("\n================ DATASET LOADED ================\n")
 
